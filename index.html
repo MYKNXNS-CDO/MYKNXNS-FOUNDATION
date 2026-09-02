@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MYKNXNS Community Development Organization | Preserving What Matters Most</title>
+<meta name="description" content="The MYKNXNS Community Development Organization is a 501(c)(3) nonprofit serving our communities: preserving stories, strengthening communities, and empowering generations.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Montserrat:wght@600;700;800&family=Orbitron:wght@600;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23020816'/%3E%3Ccircle cx='16' cy='16' r='6' fill='none' stroke='%234DB8FF' stroke-width='2'/%3E%3Ccircle cx='16' cy='16' r='2' fill='%23DDF4FF'/%3E%3Ccircle cx='26' cy='8' r='2' fill='%231E90FF'/%3E%3Ccircle cx='6' cy='24' r='2' fill='%231E90FF'/%3E%3Cpath d='M20 12 24.5 9.5M12 20 7.5 22.5' stroke='%231E90FF' stroke-width='1.5'/%3E%3C/svg%3E">
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<!-- ============================================================
+     NAVIGATION - menu items per spec:
+     About, Leadership, Donate, Volunteer, Partner, Connect
+     ============================================================ -->
+<header class="nav" id="top">
+  <div class="nav-inner">
+    <a class="brand" href="index.html" aria-label="MYKNXNS Community Development Organization home">
+      <span class="brand-text">
+        <span class="brand-name">MYKNXNS</span>
+        <span class="brand-sub brand-sub-full">Community Development Organization</span>
+        <span class="brand-sub brand-sub-abbr">C.D.O.</span>
+      </span>
+    </a>
+    <nav class="nav-links" id="navLinks" aria-label="Main navigation">
+      <a href="#about">About</a>
+      <a href="#leadership">Leadership</a>
+      <a href="get-involved.html?type=volunteer">Volunteer</a>
+      <a href="get-involved.html?type=partner">Partner</a>
+      <a href="#connect">Connect</a>
+    </nav>
+    <div class="nav-actions">
+      <a class="btn btn-primary btn-nav" href="donate.html">Donate</a>
+      <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="navLinks" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+<!-- ============================================================
+     HERO - built for a continuously running background video.
+     To add the video: upload hero.mp4 to this folder, then remove
+     the comment marks around the <video> block below.
+     EDIT: headline and intro paragraph.
+     ============================================================ -->
+<section class="hero">
+  <!--
+  <video class="hero-video" autoplay muted loop playsinline poster="">
+    <source src="hero.mp4" type="video/mp4">
+  </video>
+  -->
+  <div class="hero-sky" aria-hidden="true">
+    <svg class="constellation" viewBox="0 0 900 640" preserveAspectRatio="xMidYMid slice">
+      <g class="c-lines" stroke="#1E90FF" stroke-width="1">
+        <path d="M450 320 640 180M450 320 700 400M450 320 300 150M450 320 220 420M450 320 560 520M640 180 780 120M300 150 180 90M220 420 120 540M700 400 820 480M560 520 620 610M300 150 450 320M640 180 700 400M220 420 300 150"/>
+      </g>
+      <g class="c-nodes" fill="#1E90FF">
+        <circle cx="640" cy="180" r="5"/>
+        <circle cx="700" cy="400" r="6"/>
+        <circle cx="300" cy="150" r="6"/>
+        <circle cx="220" cy="420" r="5"/>
+        <circle cx="560" cy="520" r="5"/>
+        <circle cx="780" cy="120" r="4"/>
+        <circle cx="180" cy="90" r="4"/>
+        <circle cx="120" cy="540" r="4"/>
+        <circle cx="820" cy="480" r="4"/>
+        <circle cx="620" cy="610" r="4"/>
+      </g>
+      <circle class="c-core-ring" cx="450" cy="320" r="52" fill="none" stroke="#4DB8FF" stroke-width="2"/>
+      <circle class="c-core-ring2" cx="450" cy="320" r="80" fill="none" stroke="#1E90FF" stroke-width="1" opacity=".35"/>
+      <circle class="c-core" cx="450" cy="320" r="10" fill="#DDF4FF"/>
+    </svg>
+  </div>
+  <div class="hero-inner">
+    <p class="hero-eyebrow">A 501(c)(3) nonprofit organization</p>
+    <h1>Preserving what<br>matters most.</h1>
+    <p class="hero-lede">
+      The MYKNXNS Community Development Organization serves our communities:
+      preserving the stories and wisdom of our families, standing with
+      neighbors in times of need, and investing in the generation coming up.
+    </p>
+    <div class="hero-cta">
+      <a class="btn btn-glow" href="donate.html">Donate</a>
+      <a class="btn btn-ghost" href="get-involved.html">Get involved</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     ABOUT - EDIT: summary copy
+     ============================================================ -->
+<section class="section" id="about">
+  <div class="container narrow">
+    <p class="kicker">About us</p>
+    <h2>Who we are</h2>
+    <p class="lead">
+      The MYKNXNS Community Development Organization (C.D.O.) is the
+      charitable arm of MYKNXNS Inc., created to celebrate the extraordinary
+      value of everyday people by preserving their stories, strengthening
+      communities, and passing forward the wisdom that can help future
+      generations build stronger families, more resilient communities, and
+      a better future.
+    </p>
+    <p class="lead">
+      We created the MYKNXNS C.D.O. to extend our mission of preservation,
+      connection, and community impact beyond the platform and directly into
+      the communities we serve. At the heart of our work is a simple belief:
+      one of the world's greatest untapped resources is the collective wisdom
+      of everyday people.
+    </p>
+    <p class="lead">
+      We work alongside individuals, families, and communities to preserve
+      the stories, traditions, experiences, knowledge, and life lessons that
+      might otherwise be lost. At the same time, we invest in people and
+      communities today: helping create opportunities, strengthen
+      connections, and provide support when it is needed most.
+    </p>
+    <p class="lead">
+      Through scholarships, educational support and tutoring, community
+      investment, community partnerships, and access to legacy-preservation
+      resources, we seek to ensure that what one generation has learned can
+      become a resource for the next.
+    </p>
+    <p class="lead">
+      Our vision is to inspire a global movement that preserves culture,
+      strengthens communities, celebrates the extraordinary value of everyday
+      lives, and ensures the wisdom of today empowers the generations of
+      tomorrow.
+    </p>
+  </div>
+</section>
+
+<!-- ============================================================
+     CORE VALUES - click a value, the panel changes.
+     EDIT: value names and descriptions. To use photos, replace
+     each .value-visual block with an <img> tag.
+     ============================================================ -->
+<section class="section section-soft" id="values">
+  <div class="container">
+    <p class="kicker">What guides us</p>
+    <h2>Our core values</h2>
+    <div class="values">
+      <div class="values-tabs" role="tablist" aria-label="Core values">
+        <button class="value-tab active" role="tab" aria-selected="true" data-value="0" id="tab-0" aria-controls="panel-0">Every Story Matters</button>
+        <button class="value-tab" role="tab" aria-selected="false" data-value="1" id="tab-1" aria-controls="panel-1">Preserve with Purpose</button>
+        <button class="value-tab" role="tab" aria-selected="false" data-value="2" id="tab-2" aria-controls="panel-2">Impact in Action</button>
+        <button class="value-tab" role="tab" aria-selected="false" data-value="3" id="tab-3" aria-controls="panel-3">Communities Hold the Answers</button>
+      </div>
+      <div class="values-panels">
+
+        <div class="value-panel active" role="tabpanel" id="panel-0" aria-labelledby="tab-0">
+          <div class="value-visual" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="3" width="16" height="18" rx="2"/><path d="M8 7h8M8 11h8M8 15h5"/></svg>
+          </div>
+          <div class="value-text">
+            <h3>Every Story Matters</h3>
+            <p>We believe every person carries wisdom, experiences, and
+            relationships that have the power to inspire, teach, and
+            transform others. Every life has value, and every story deserves
+            to be heard and preserved.</p>
+            <p class="value-principle">Guiding principle: We honor the
+            extraordinary value found in ordinary lives.</p>
+          </div>
+        </div>
+
+        <div class="value-panel" role="tabpanel" id="panel-1" aria-labelledby="tab-1" hidden>
+          <div class="value-visual" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l7 2.8v5.4c0 4.4-3 7.6-7 9.8-4-2.2-7-5.4-7-9.8V5.8z"/><path d="M9 12l2 2 4-4.5"/></svg>
+          </div>
+          <div class="value-text">
+            <h3>Preserve with Purpose</h3>
+            <p>We are committed to protecting the stories, lessons, and
+            relationships that might otherwise be lost to time. We preserve
+            not simply to remember the past, but to equip future generations
+            with the wisdom they need to build a better future.</p>
+            <p class="value-principle">Guiding principle: Today's experiences
+            become tomorrow's wisdom.</p>
+          </div>
+        </div>
+
+        <div class="value-panel" role="tabpanel" id="panel-2" aria-labelledby="tab-2" hidden>
+          <div class="value-visual" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21c-4.5-3.6-8-6.4-8-10a4.5 4.5 0 0 1 8-2.8A4.5 4.5 0 0 1 20 11c0 3.6-3.5 6.4-8 10z"/></svg>
+          </div>
+          <div class="value-text">
+            <h3>Impact in Action</h3>
+            <p>We transform purpose into measurable action through community
+            collaboration, innovation, service, and investment, creating a
+            lasting social impact.</p>
+            <p class="value-principle">Guiding principle: We leave every
+            community stronger than we found it.</p>
+          </div>
+        </div>
+
+        <div class="value-panel" role="tabpanel" id="panel-3" aria-labelledby="tab-3" hidden>
+          <div class="value-visual" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="8" r="3"/><circle cx="16.5" cy="9.5" r="2.5"/><path d="M3.5 19c.6-3 2.8-5 5.5-5s4.9 2 5.5 5"/><path d="M14.5 14.3c2.3.3 4 2 4.5 4.7"/></svg>
+          </div>
+          <div class="value-text">
+            <h3>Communities Hold the Answers</h3>
+            <p>We believe the greatest wisdom, solutions, and opportunities
+            already exist within our communities. We empower communities to
+            preserve their existing knowledge, strengthen relationships, and
+            pass forward a legacy that inspires future generations.</p>
+            <p class="value-principle">Guiding principle: Our role is to
+            listen, preserve, connect, and empower.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     RECENT ACTIVITIES - starts with the launch announcement.
+     As real updates happen, add cards using the templates in the
+     comment below. To add a photo, replace the .activity-img div
+     with: <img class="activity-img" src="your-photo.jpg" alt="describe the photo">
+     ============================================================ -->
+<section class="section" id="activities">
+  <div class="container">
+    <p class="kicker">Recent activities</p>
+    <h2>The work begins</h2>
+    <div class="cards cards-one">
+
+      <article class="card activity-card activity-featured">
+        <div class="activity-img" aria-hidden="true"><span>Photo coming soon</span></div>
+        <div class="activity-body">
+          <p class="activity-tag">Announcement</p>
+          <h3>The MYKNXNS Community Development Organization has officially been activated</h3>
+          <p>Now that our 501(c)(3) is official, the work begins, and we
+          couldn't be more excited to get started.</p>
+          <p>We are launching our first programs focused on scholarships and
+          educational support, helping families navigate difficult seasons,
+          investing in the communities we serve, and providing access to
+          legacy-preservation resources at no cost.</p>
+          <p>Follow along as we turn our mission into action and begin making
+          a meaningful impact in the communities we serve.</p>
+        </div>
+      </article>
+
+    </div>
+
+    <!-- MORE ACTIVITY CARDS - when you have real updates, change the div
+         above from class="cards cards-one" to class="cards", then copy
+         this template inside it for each update:
+
+      <article class="card activity-card">
+        <div class="activity-img" aria-hidden="true"><span>Photo coming soon</span></div>
+        <p class="activity-tag">Programs</p>
+        <h3>Your headline here</h3>
+        <p>Two or three lines about the event, program, or story.</p>
+      </article>
+
+    -->
+  </div>
+</section>
+
+<!-- ============================================================
+     WHERE YOUR GIFT GOES - day-one version of this band.
+     When you have real totals, delete this section and un-comment
+     the ACCOMPLISHMENTS section right below it.
+     ============================================================ -->
+<section class="impact-band" id="impact">
+  <div class="container">
+    <p class="kicker kicker-light">Where your gift goes</p>
+    <h2>Every gift helps move the mission forward</h2>
+    <div class="give-grid" role="list">
+      <div class="give-item" role="listitem">
+        <span class="give-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-4.5L21 9l-9 4.5z"/><path d="M6.5 11v4.5c0 1.2 2.5 2.5 5.5 2.5s5.5-1.3 5.5-2.5V11"/><path d="M21 9v5"/></svg>
+        </span>
+        <h3>Education</h3>
+        <p class="give-sub">Creating opportunities for the next generation.</p>
+        <p>Scholarships, tutoring, mentorship, and educational resources that
+        help young people learn, grow, and pursue their potential.</p>
+      </div>
+      <div class="give-item" role="listitem">
+        <span class="give-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21c-4.5-3.6-8-6.4-8-10a4.5 4.5 0 0 1 8-2.8A4.5 4.5 0 0 1 20 11c0 3.6-3.5 6.4-8 10z"/></svg>
+        </span>
+        <h3>Community Support</h3>
+        <p class="give-sub">Showing up when families need it most.</p>
+        <p>Direct assistance, essential resources, and coordinated community
+        support for individuals and families navigating hardship, crisis, or
+        unexpected challenges.</p>
+      </div>
+      <div class="give-item" role="listitem">
+        <span class="give-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><circle cx="12" cy="12" r="3.5"/><path d="M12 10.5v1.5l1 1"/></svg>
+        </span>
+        <h3>Legacy Preservation</h3>
+        <p class="give-sub">Ensuring our stories and wisdom are never lost.</p>
+        <p>Providing individuals, families, and elders with access to
+        legacy-preservation resources that help preserve their stories,
+        traditions, experiences, and wisdom for future generations.</p>
+      </div>
+      <div class="give-item" role="listitem">
+        <span class="give-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3a6 6 0 0 0-4 10.5c.6.6 1 1.5 1 2.5h6c0-1 .4-1.9 1-2.5A6 6 0 0 0 12 3z"/><path d="M9.5 19h5"/><path d="M10.5 21.5h3"/></svg>
+        </span>
+        <h3>Inspiration</h3>
+        <p class="give-sub">Inspiring people to pursue their purpose.</p>
+        <p>Through storytelling, community engagement, shared experiences,
+        and examples of everyday people making a difference, we encourage
+        individuals to recognize their own value, embrace what they have to
+        offer, and use their gifts to positively impact the lives of others.</p>
+      </div>
+    </div>
+    <p class="impact-note">As our first-year impact takes shape, we'll share the results and lessons right here.</p>
+  </div>
+</section>
+
+<!-- ACCOMPLISHMENTS - un-comment this section (and delete the one above)
+     once you have real totals to publish. Replace each &mdash; with the
+     real number. Never publish estimates.
+
+<section class="impact-band" id="impact">
+  <div class="container">
+    <p class="kicker kicker-light">Our accomplishments</p>
+    <h2>The outcomes of our service</h2>
+    <div class="impact-grid" role="list">
+      <div class="impact-item" role="listitem">
+        <span class="impact-num">&mdash;</span>
+        <span class="impact-label">Dollars raised</span>
+      </div>
+      <div class="impact-item" role="listitem">
+        <span class="impact-num">&mdash;</span>
+        <span class="impact-label">Dollars invested in the community</span>
+      </div>
+      <div class="impact-item" role="listitem">
+        <span class="impact-num">&mdash;</span>
+        <span class="impact-label">Hours volunteered</span>
+      </div>
+      <div class="impact-item" role="listitem">
+        <span class="impact-num">&mdash;</span>
+        <span class="impact-label">Students tutored</span>
+      </div>
+    </div>
+    <p class="impact-note">We publish our outcomes as they happen. Check back as the work grows.</p>
+  </div>
+</section>
+
+-->
+
+
+<!-- ============================================================
+     FOUNDING PARTNERS - day-one version: an invitation.
+     When you have real partner logos, un-comment the logo row
+     below and swap each placeholder for:
+     <img src="partner-logo.png" alt="Partner name">
+     ============================================================ -->
+<section class="section" id="partners">
+  <div class="container center">
+    <p class="kicker">Community partners</p>
+    <h2>Become a founding community partner</h2>
+    <p class="section-intro">
+      We're building a network of schools, faith organizations, nonprofits,
+      businesses, and community leaders who believe in preserving what
+      matters most, strengthening communities, and creating opportunities
+      for future generations.
+    </p>
+    <p class="section-intro">
+      Join us from the beginning and help shape the work, the partnerships,
+      and the impact we create together.
+    </p>
+    <!--
+    <div class="partners-row">
+      <div class="partner-slot">Partner logo</div>
+      <div class="partner-slot">Partner logo</div>
+      <div class="partner-slot">Partner logo</div>
+    </div>
+    -->
+    <a class="btn btn-outline" href="get-involved.html?type=partner">Start the conversation</a>
+  </div>
+</section>
+
+<!-- ============================================================
+     LEADERSHIP - EDIT: names, titles, and short bios. To add
+     headshots, replace .leader-photo with an <img> tag.
+     ============================================================ -->
+<section class="section section-soft" id="leadership">
+  <div class="container">
+    <p class="kicker">Leadership</p>
+    <h2>Meet the people behind the mission</h2>
+
+    <article class="card leader-feature">
+      <div class="leader-feature-photo">
+        <img src="jay-johnson.jpg" alt="Jay Johnson, founder of MYKNXNS, standing by the water at sunset">
+        <p class="leader-name">Jay Johnson</p>
+        <p class="leader-title">Founder</p>
+      </div>
+      <div class="leader-feature-text">
+        <p class="leader-quote">&ldquo;When an elder dies, a library burns.&rdquo;<span>&mdash; African proverb</span></p>
+        <p>Jay Johnson embodies this philosophy through MYKNXNS, which he
+        founded with a simple belief that everyday people carry extraordinary
+        stories, wisdom, experiences, and knowledge worth preserving.</p>
+        <p>His work is dedicated to turning that belief into action:
+        Preserving what matters, strengthening communities, creating
+        opportunities, and ensuring that what one generation has learned
+        can empower the next.</p>
+        <p>Muhammad Ali once said, &ldquo;Service to others is the rent you
+        pay for your room here on Earth.&rdquo;</p>
+        <p>Jay believes his purpose is to serve humanity by helping preserve
+        the knowledge, wisdom, experiences, and perspectives people
+        accumulate throughout their lives. In turn, they can continue to
+        teach, inspire, and empower others long after the moment has
+        passed.</p>
+        <p>Through MYKNXNS, he hopes fewer of our human libraries will be
+        lost to time, and more of what humanity has learned will be passed
+        forward.</p>
+        <p class="leader-calling">We are all called to serve in different
+        ways. Jay found his calling in serving humanity.<br>What is your
+        calling?</p>
+      </div>
+    </article>
+
+    <!-- BOARD MEMBERS - when you're ready to list the board, add a
+         <div class="cards leaders"> below the article above and copy this
+         template inside it for each member:
+
+      <article class="card leader-card">
+        <div class="leader-photo" aria-hidden="true"><span>Photo</span></div>
+        <h3>[Board member name]</h3>
+        <p class="leader-title">Board Member</p>
+        <p>A short two-line bio goes here: background, community roles,
+        and what they bring to the board.</p>
+      </article>
+
+    -->
+  </div>
+</section>
+
+<!-- ============================================================
+     MEDIA - hidden until you have real photos and videos.
+     To turn it on: remove the comment marks around the section,
+     then replace each tile with an image:
+     <div class="media-tile"><img src="your-photo.jpg" alt="describe the photo"></div>
+
+<section class="section" id="media">
+  <div class="container">
+    <p class="kicker">Media</p>
+    <h2>Photos &amp; videos</h2>
+    <p class="section-intro">Moments from the community, captured and kept.</p>
+    <div class="media-grid">
+      <div class="media-tile" aria-hidden="true"><span>Photo</span></div>
+      <div class="media-tile" aria-hidden="true"><span>Video</span></div>
+      <div class="media-tile" aria-hidden="true"><span>Photo</span></div>
+      <div class="media-tile" aria-hidden="true"><span>Photo</span></div>
+      <div class="media-tile" aria-hidden="true"><span>Video</span></div>
+      <div class="media-tile" aria-hidden="true"><span>Photo</span></div>
+    </div>
+  </div>
+</section>
+
+     ============================================================ -->
+
+</main>
+
+<!-- ============================================================
+     FOOTER + CONNECT - EDIT: social media links and email.
+     ============================================================ -->
+<footer class="footer" id="connect">
+  <div class="container footer-grid">
+    <div class="footer-brand">
+      <span class="brand-name brand-name-light">MYKNXNS</span>
+      <span class="brand-sub brand-sub-light">Community Development Organization</span>
+      <p>Preserving what matters. Strengthening communities. Empowering generations.</p>
+    </div>
+    <nav class="footer-col" aria-label="Site">
+      <h4>Explore</h4>
+      <a href="#about">About</a>
+      <a href="#leadership">Leadership</a>
+      <a href="donate.html">Donate</a>
+      <a href="get-involved.html?type=volunteer">Volunteer</a>
+      <a href="get-involved.html?type=partner">Partner</a>
+    </nav>
+    <div class="footer-col">
+      <h4>Connect</h4>
+      <div class="social-row">
+        <!-- EDIT: put your real social profile links in the href attributes -->
+        <a href="https://www.facebook.com/" aria-label="Facebook" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="currentColor" width="22" height="22"><path d="M13.5 21v-7h2.4l.4-3h-2.8V9.1c0-.9.3-1.5 1.6-1.5h1.3V4.9c-.3 0-1.1-.1-2-.1-2 0-3.4 1.2-3.4 3.5V11H8.5v3H11v7z"/></svg>
+        </a>
+        <a href="https://www.instagram.com/" aria-label="Instagram" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" width="22" height="22"><rect x="3.5" y="3.5" width="17" height="17" rx="4.5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="1.1" fill="currentColor" stroke="none"/></svg>
+        </a>
+        <a href="https://www.youtube.com/" aria-label="YouTube" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="currentColor" width="22" height="22"><path d="M21.6 7.2a2.5 2.5 0 0 0-1.8-1.8C18.2 5 12 5 12 5s-6.2 0-7.8.4A2.5 2.5 0 0 0 2.4 7.2 26 26 0 0 0 2 12a26 26 0 0 0 .4 4.8 2.5 2.5 0 0 0 1.8 1.8C5.8 19 12 19 12 19s6.2 0 7.8-.4a2.5 2.5 0 0 0 1.8-1.8A26 26 0 0 0 22 12a26 26 0 0 0-.4-4.8zM10 15.2V8.8L15.5 12z"/></svg>
+        </a>
+        <a href="https://www.linkedin.com/" aria-label="LinkedIn" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="currentColor" width="22" height="22"><path d="M6.9 8.6H4V20h2.9zM5.4 4a1.7 1.7 0 1 0 0 3.4 1.7 1.7 0 0 0 0-3.4zM20 13.4c0-3-1.6-4.9-4.2-4.9a3.6 3.6 0 0 0-3.2 1.7V8.6H9.7V20h2.9v-6c0-1.6.8-2.5 2.1-2.5s2 .9 2 2.5v6H20z"/></svg>
+        </a>
+      </div>
+      <a href="mailto:myknxnscdo@gmail.com">myknxnscdo@gmail.com</a>
+    </div>
+  </div>
+  <div class="container footer-legal">
+    <p>The MYKNXNS Community Development Organization is a 501(c)(3) nonprofit organization.
+    Donations are tax-deductible to the extent allowed by law. EIN: 42-2459890.</p>
+    <p>&copy; <span id="year">2026</span> MYKNXNS Community Development Organization. All rights reserved.</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

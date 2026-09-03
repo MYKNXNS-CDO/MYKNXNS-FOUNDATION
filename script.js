@@ -68,3 +68,43 @@ if ('IntersectionObserver' in window) {
 // Current year in footer
 var year = document.getElementById('year');
 if (year) year.textContent = new Date().getFullYear();
+
+// Submit the Volunteer & Partner form to Formspree without leaving the MYKNXNS website
+var contactForm = document.querySelector('form[action*="formspree.io"]');
+
+if (contactForm) {
+  contactForm.addEventListener('submit', async function (event) {
+    event.preventDefault();
+
+    var submitButton = contactForm.querySelector('button[type="submit"]');
+    var originalButtonText = submitButton ? submitButton.textContent : '';
+
+    if (submitButton) {
+      submitButton.disabled = true;
+      submitButton.textContent = 'Sending...';
+    }
+
+    try {
+      var response = await fetch(contactForm.action, {
+        method: 'POST',
+        body: new FormData(contactForm),
+        headers: {
+          'Accept': 'application/json'
+        }
+      });
+
+      if (response.ok) {
+        window.location.href = 'thank-you.html';
+      } else {
+        alert('We were unable to submit your information. Please try again or email connect@myknxnscommunitydevelopment.com.');
+      }
+    } catch (error) {
+      alert('We were unable to submit your information. Please try again or email connect@myknxnscommunitydevelopment.com.');
+    } finally {
+      if (submitButton) {
+        submitButton.disabled = false;
+        submitButton.textContent = originalButtonText;
+      }
+    }
+  });
+}

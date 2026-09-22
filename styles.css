@@ -765,3 +765,9 @@ h3 { font-size: 1.25rem; font-weight: 700; margin-bottom: 10px; }
   .footer-grid { grid-template-columns: 1fr; gap: 32px; }
   .footer-legal { flex-direction: column; }
 }
+
+
+/* Spacing between Resource document entries */
+.resource-item {
+  margin-bottom: 32px;
+}
